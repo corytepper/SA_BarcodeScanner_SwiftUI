@@ -14,6 +14,7 @@
 		2F988C3C294CF9470043ABBC /* SA_BarcodeScanner_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F988C3B294CF9470043ABBC /* SA_BarcodeScanner_SwiftUITests.swift */; };
 		2F988C46294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F988C45294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITests.swift */; };
 		2F988C48294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F988C47294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITestsLaunchTests.swift */; };
+		2F988C55294D10A50043ABBC /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F988C54294D10A50043ABBC /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2F988C41294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SA_BarcodeScanner_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F988C45294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SA_BarcodeScanner_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		2F988C47294CF9470043ABBC /* SA_BarcodeScanner_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SA_BarcodeScanner_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F988C54294D10A50043ABBC /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				2F988C2C294CF9460043ABBC /* BarcodeScannerView.swift */,
 				2F988C2E294CF9460043ABBC /* Assets.xcassets */,
 				2F988C30294CF9460043ABBC /* Preview Content */,
+				2F988C54294D10A50043ABBC /* ScannerVC.swift */,
 			);
 			path = SA_BarcodeScanner_SwiftUI;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F988C55294D10A50043ABBC /* ScannerVC.swift in Sources */,
 				2F988C2D294CF9460043ABBC /* BarcodeScannerView.swift in Sources */,
 				2F988C2B294CF9460043ABBC /* SA_BarcodeScanner_SwiftUIApp.swift in Sources */,
 			);
